@@ -1,0 +1,24 @@
+
+.btn{
+    text-decoration: none;
+    border: 3px solid;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 200ms ease-in;
+    color: rgb(92, 92, 205);
+}
+
+.btn:hover{
+    background-color: rgb(125, 125, 211);
+    color: aqua;
+    padding: 7px;
+}
+
+@font-face {
+    font-family: NerkoOne-regular;
+    src: url('NerkoOne-Regular.ttf');
+}
+
+body{
+    font-family: NerkoOne-regular;
+}
