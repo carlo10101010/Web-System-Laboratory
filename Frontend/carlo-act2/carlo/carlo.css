@@ -1,8 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(180, 176, 176);
+    background-color: black;
     color: white;
 }
+
 
 .container {
     display: flex;
@@ -11,19 +12,23 @@ body {
 }
 
 .playlist {
-    width: 60%;
+    width: 100%;
     background-color: #000000;
-    padding: 20px; 
-    border-radius: 8px; 
-    border: 1px solid #ccc;
+    padding: 25px; 
+    padding-top: 10px;
+    border-radius: 10px; 
+    border: 1px solid #d6cece;
+
 }
 
 .add-song {
-    width: 35%;
+    width: 80%;
     background-color: #000000;
     padding: 20px; 
-    border-radius: 8px;
+    padding-top: 5px;
+    border-radius: 10px;
     border: 1px solid #ccc;
+    margin: auto;
 }
 
 h2 {
@@ -34,19 +39,24 @@ h2 {
 #song-title,
 #artist-name {
     width: 95%;
-    padding: 8px;
+    padding: 10px;
+    padding-top: 5px;
+    margin-left: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #444;
+    background-color: #5d5757;
     color: white;
 }
+
 
 .song {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 5px 0;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 .song-title {
@@ -57,12 +67,12 @@ h2 {
 .artist-name {
     display: block; 
     font-size: 0.9em; 
-    color: #a88181; 
+    color: #ab9898; 
     margin: 0; 
 }
 
 button {
-    background-color: #e2661f;
+    background-color: #cf2a24;
     color: white;
     border: none;
     padding: 3px 10px;
@@ -70,11 +80,15 @@ button {
 }
 
 button:hover {
-    background-color: #ec7310;
+    background-color: #f70d0d;
+}
+
+#add-button:hover {
+    background-color: rgb(5, 5, 199); 
 }
 
 #add-button {
-    background-color: rgb(19, 108, 240); 
+    background-color: rgb(9, 85, 200); 
     color: white; 
     border: none; 
     padding: 8px 15px; 
@@ -82,9 +96,6 @@ button:hover {
     cursor: pointer; 
 }
 
-#add-button:hover {
-    background-color: darkblue; 
-}
 
 .add-song {
     display: flex; 
@@ -95,3 +106,6 @@ button:hover {
     align-self: center; 
     margin-top: 10px;
 }
+
+
+
