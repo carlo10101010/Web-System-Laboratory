@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(180, 176, 176);
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.workout{
+    width: 60%;
+    background-color: #000000;
+    padding: 20px; 
+    border-radius: 8px; 
+    border: 1px solid #ccc;
+}
+
+.add-workout {
+    width: 35%;
+    background-color: #000000;
+    padding: 20px; 
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    text-align: center;
+}
+
+.search-bar,
+#exercise-name,
+#weight,
+#reps {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+}
+
+.workout-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    background-color: #1c1c1c;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.workout-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1; 
+}
+
+.workout-buttons {
+    display: flex;
+    gap: 10px; 
+    justify-content: flex-start;
+}
+
+.workout-buttons .btn {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.weight-and-reps {
+    white-space: nowrap; 
+    font-size: 14px; 
+}
+
+
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ec7310;
+}
+
+.delete-button {
+    color: white;
+}
+
+.edit-button {
+    background-color: #ffc107;
+    color: black;
+}
+
+
+#editWorkoutModal .modal-dialog {
+    max-width: 400px; 
+}
+
+#editWorkoutModal .modal-content {
+    padding: 15px; 
+    background-color: #464646;
+}
+
+#editWorkoutModal .modal-header,
+#editWorkoutModal .modal-body,
+#editWorkoutModal .modal-footer {
+    padding: 10px; 
+}
